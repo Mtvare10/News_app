@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     #local
     "accounts",
     "pages",
+    "articles",
     # 3rd Party
     "crispy_forms", # new
     "crispy_bootstrap5", # new
@@ -130,3 +131,5 @@ AUTH_USER_MODEL = "accounts.CustomUser"
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" # new
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend" 
+
+TIME_ZONE = "Asia/Tbilisi"
